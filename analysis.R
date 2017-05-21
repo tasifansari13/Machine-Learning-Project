@@ -1,3 +1,13 @@
+// Load all the packages
+
+(caret)
+## Loading required package: lattice
+## Loading required package: ggplot2
+library(ggplot2)
+library(randomForest)
+## randomForest 4.6-12
+## Type rfNews() to see new features/changes/bug fixes.
+
 // Load the data
 
 train <- read.csv("training.csv", na.strings=c("NA","#DIV/0!",""))
